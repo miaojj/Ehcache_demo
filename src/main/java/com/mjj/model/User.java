@@ -17,8 +17,9 @@ public class User implements Serializable {
 
     /**
      * <br>------------------------------<br>
+     * @param user
      */
-    public User() {
+    public User(User user) {
 
     }
 

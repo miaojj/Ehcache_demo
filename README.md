@@ -1,2 +1,1 @@
-# redis
-redis,spring的一个demo
+# EhCache,spring 的一个简单demo

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache updateCheck="false" name="defaultCache">
+
+	<diskStore path="../temp/wetradeadmin/ehcache" />
+	<!-- 系统缓存 -->
+	<cache name="sysCache" maxEntriesLocalHeap="100" eternal="true" overflowToDisk="true"/>
+	<!-- 用户缓存 -->
+	<cache name="tmp" maxEntriesLocalHeap="100" overflowToDisk="true"/>
+
+
+</ehcache>
